@@ -480,6 +480,73 @@ body::before {
   pointer-events: none;
 }
 .tooltip-wrap:hover .tooltip-text { visibility: visible; opacity: 1; }
+
+@media (max-width: 620px) {
+  .wrap { padding: 0 18px; }
+  .hero { padding: 60px 0 40px; min-height: auto; }
+  .hero-title { font-size: 30px; }
+  .hero-sub { font-size: 14px; }
+  .section-title { font-size: 24px; }
+  .body-text { font-size: 14px; }
+
+  .sara-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 16px;
+  }
+  .sara-img { width: 120px; height: 134px; margin: 0 auto; display: block; }
+  .sara-name { font-size: 26px; }
+  .sara-tags { justify-content: center; }
+  .sara-quote { text-align: left; }
+
+  .goals-grid { grid-template-columns: 1fr; }
+  .metrics-grid { grid-template-columns: 1fr; }
+  .seg-grid { grid-template-columns: 1fr; }
+  .two { grid-template-columns: 1fr; }
+
+  .email-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .email-row .email-pill { width: fit-content; }
+  .email-pill { display: inline-block; margin-top: 4px; width: auto; align-self: flex-start; }
+
+  .journey-step { grid-template-columns: 32px 1fr; gap: 12px; }
+  .step-body { padding: 12px 14px; }
+  .step-title { font-size: 13px; }
+  .step-desc { font-size: 12px; }
+
+  .insight { padding: 10px 14px; }
+  .insight-text { font-size: 12px; }
+
+  .metric-card { padding: 16px; }
+  .metric-value { font-size: 28px; }
+
+  .seg-card { padding: 14px; }
+
+  .challenge { padding: 12px 14px; }
+  .ch-num { font-size: 20px; }
+  .ch-title { font-size: 12px; }
+  .ch-desc { font-size: 11px; }
+
+  .email-mockup { margin: 24px 0; }
+  .em-content { padding: 20px 16px; }
+  .em-title { font-size: 20px; }
+  .em-body { font-size: 13px; }
+  .em-step-text { font-size: 12px; }
+  .em-cta { font-size: 13px; padding: 12px 20px; }
+
+  .footer { padding: 40px 0; }
+  .footer-name { font-size: 18px; }
+
+  .section { padding: 50px 0; }
+  .section-num { font-size: 10px; }
+
+  .hero-meta { flex-direction: column; gap: 8px; }
+
+  svg { overflow: visible; }
+}
+
 </style>
 </head>
 <body>
